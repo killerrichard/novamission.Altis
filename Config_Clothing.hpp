@@ -373,4 +373,62 @@ class Clothing {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
         };
     };
+		class uaa {
+       
+		 	title = "UAA";
+        
+			license = "uaa";
+        side = "civ";
+      
+ 	uniforms[] = {
+           
+				{ "NONE", "Entferne Kleidung", 0, { "", "", 25 } },
+ 				{ "U_BG_Guerilla1_1", "Zivilisten-Uniform", 2000, { "", "", 25 } },
+				{ "U_I_CombatUniform", "Soldaten-Uniform", 2000, { "", "", 25 } },
+				{ "U_I_CombatUniform_tshirt", "Offiziere-Uniform", 2000, { "", "", 25 } },
+				{ "U_O_PilotCoveralls", "Schwere-Uniform", 2000, { "", "", 25 } },
+				{ "U_O_FullGhillie_ard", "Schützen-Uniform", 20000, { "", "", 25 } },
+                { "U_BG_leader", "Befehlshaber-Uniform", 2000, { "", "", 25 } },
+                { "U_I_OfficerUniform", "General-Uniform", 2000, { "", "", 25 } },
+				{ "U_I_Wetsuit", "Taucheranzug", 2000, { "", "", 25 } }
+        };
+        
+	headgear[] = {
+          
+		  		{ "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } },
+				{ "H_Cap_blk_Raven", "Militärmütze", 1000, { "", "", -1 } },
+				{ "H_HelmetB_light_black", "Kampfhelm", 10000, { "", "", -1 } },   
+				{ "H_Shemag_olive", "Kopftuch", 1000, { "", "", -1 } },
+				{ "H_HelmetIA", "", 1000, { "", "", -1 } }
+                { "H_Beret_grn_SF", "Barett", 1000, { "", "", -1 } }
+  };
+      
+	goggles[] = {
+           
+ 				{ "NONE", "Keine Brille", 0, { "", "", -1 } },
+		 		{ "G_I_Diving", "Taucherbrille", 500, { "", "", -1 } },
+				{ "G_Aviator", "Pilotenbrille", 1000, { "", "", -1 } },
+                { "G_Bandanna_blk", "Einsatzbandanna", 1000, { "", "", -1 } },
+				{ "G_Bandanna_beast", "Schützen Bandanna", 100000, { "", "", -1 } }
+       };
+        
+	vests[] = {
+            		
+				{ "NONE", "Keine Weste", 0, { "", "", -1 } },
+                { "V_RebreatherIA", "Taucherflasche", 10000, { "", "", -1 } },
+ 				{ "V_TacVest_oli", "Schutzweste", 10000, { "", "", -1 } },
+		 		{ "V_PlateCarrier3_rgr", "Einsatzweste", 10000, { "", "", -1 } },
+ 				{ "V_PlateCarrierIA1_dgtl", "Schwere Weste", 5000, { "", "", -1 } },
+				{ "V_PlateCarrierIA2_dgtl", "Sondereinsatzweste", 5000, { "", "", -1 } }
+       };
+      
+  	backpacks[] = {
+            	
+				{ "NONE", "Kein Rucksack", 0, { "", "", -1 } },
+  				{ "B_Carryall_ocamo", "Großer Rucksack", 2500, { "", "", -1 } },
+    		    { "B_Kitbag_rgr", "Einsatzpack", 1500, { "", "", -1 } },
+				{ "B_TacticalPack_oli", "", 3500, { "", "", -1 } },
+    
+		    };
+    };	
 };
