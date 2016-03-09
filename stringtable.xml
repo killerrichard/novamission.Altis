@@ -3,6 +3,7 @@
   <Package name="Shop_Names">
     <Key ID="STR_Shops_C_Bruce">
       <Original>Bruce's Outback Outfits</Original>
+      <German>Bruce Bekleidungsladen</German>
       <Portuguese>Loja de Roupas</Portuguese>
       <Polish>Sklep odzieżowy</Polish>
     </Key>
