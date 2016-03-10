@@ -6025,7 +6025,7 @@
     </Key>
     <Key ID="STR_MAR_Federal_Reserve">
       <Original>Federal Reserve</Original>
-      <German>Federal Reserve Bank</German>
+      <German>Zentralbank</German>
       <Portuguese>Reserva Federal</Portuguese>
       <Polish>Bank Rezerw Federalnych</Polish>
     </Key>
@@ -6215,13 +6215,13 @@
     </Key>
     <Key ID="STR_MAR_Wong_Food_Cart">
       <Original>Wongs Food Cart</Original>
-      <German>Falsche Spezialitäten</German>
+      <German>Wongs Spezialitäten</German>
       <Portuguese>Boteco do Wongs</Portuguese>
       <Polish>Bar u Wonga</Polish>
     </Key>
     <Key ID="STR_MAR_Open_Vault">
       <Original>Open Vault</Original>
-      <German>Offener Tresor</German>
+      <German>Offne Tresor</German>
       <Portuguese>Abrir Cofre</Portuguese>
       <Polish>Otwórz skarbiec</Polish>
     </Key>
@@ -6233,25 +6233,25 @@
     </Key>
     <Key ID="STR_MAR_FED_Front">
       <Original>Federal Reserve - Front Entrance</Original>
-      <German>Federal Reserve Bank - Haupteingang</German>
+      <German>Zentralbank - Haupteingang</German>
       <Portuguese>Reserva Federal - Entrada Frontal</Portuguese>
       <Polish>Rezerwa federalna - wejście główne</Polish>
     </Key>
     <Key ID="STR_MAR_FED_Side">
       <Original>Federal Reserve - Side Entrance</Original>
-      <German>Federal Reserve Bank - Seiteneingang</German>
+      <German>Zentralbank - Seiteneingang</German>
       <Portuguese>Reserva Federal - Entrada Lateral</Portuguese>
       <Polish>Rezerwa federalna - wejście boczne</Polish>
     </Key>
     <Key ID="STR_MAR_FED_Back">
       <Original>Federal Reserve - Back Entrance</Original>
-      <German>Federal Reserve Bank - Hintereingang</German>
+      <German>Zentralbank - Hintereingang</German>
       <Portuguese>Reserva Federal - Entrada Traseira</Portuguese>
       <Polish>Rezerwa federalna - wejście tylne</Polish>
     </Key>
     <Key ID="STR_MAR_FED_Vault">
       <Original>Federal Reserve - Vault View</Original>
-      <German>Federal Reserve Bank - Tresor</German>
+      <German>Zentralbank - Tresor</German>
       <Portuguese>Reserva Federal - Visão do Cofre</Portuguese>
       <Polish>Rezerwa federalna - skarbiec</Polish>
     </Key>
