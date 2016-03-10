@@ -59,7 +59,7 @@ player createDiarySubject ["controls","Steuerung"];
 		]
 	];
 
-		player createDiaryRecord ["Server Regeln",
+		player createDiaryRecord ["serverrules",
 		[
 			"Allgemines",
 				"
