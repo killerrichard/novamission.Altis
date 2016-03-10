@@ -158,7 +158,7 @@ class VirtualItems {
         displayName = "STR_Item_Pickaxe";
         weight = 2;
         buyPrice = 750;
-        sellPrice = 350;
+        sellPrice = 500;
         illegal = false;
         edible = -1;
         icon = "icons\ico_pickaxe.paa";
@@ -192,7 +192,7 @@ class VirtualItems {
         weight = 15;
         buyPrice = 2500;
         sellPrice = 1200;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_spikestrip.paa";
     };
@@ -201,9 +201,9 @@ class VirtualItems {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
         weight = 1;
-        buyPrice = 150;
+        buyPrice = 1500;
         sellPrice = 75;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_lockpick.paa";
     };
@@ -214,7 +214,7 @@ class VirtualItems {
         weight = 12;
         buyPrice = -1;
         sellPrice = 95000;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_goldbar.paa";
     };
@@ -401,7 +401,7 @@ class VirtualItems {
         displayName = "STR_Item_DiamondC";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 2000;
+        sellPrice = 3000;
         illegal = false;
         edible = -1;
         icon = "icons\ico_diamondCut.paa";
@@ -421,7 +421,7 @@ class VirtualItems {
     class cement {
         variable = "cement";
         displayName = "STR_Item_CementBag";
-        weight = 5;
+        weight = 4;
         buyPrice = -1;
         sellPrice = 1950;
         illegal = false;
@@ -446,8 +446,8 @@ class VirtualItems {
         variable = "heroinProcessed";
         displayName = "STR_Item_HeroinP";
         weight = 4;
-        buyPrice = 3500;
-        sellPrice = 2560;
+        buyPrice = 4500;
+        sellPrice = 3560;
         illegal = true;
         edible = -1;
         icon = "icons\ico_heroinProcessed.paa";
