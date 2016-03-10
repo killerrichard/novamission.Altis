@@ -6357,6 +6357,7 @@
     </Key>
     <Key ID="STR_Crime_459">
       <Original>Burglary</Original>
+	  <German>Einbruch</German>
     </Key>
     <Key ID="STR_Crime_666">
       <Original>Tax Evasion</Original>
