@@ -6,10 +6,10 @@
 */
 class Life_Settings {
     /* Persistent Settings */
-    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = false; //Save food & water (all sides)?
-    save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
+    save_veh_virtualItems = true; //Save Virtual items for vehicles (all sides)?
     save_veh_gear = false; //Save Gear for vehicles (all sides)?
 
     /* Clothing related settings */
@@ -20,42 +20,42 @@ class Life_Settings {
     cops_online_min = 5; //minimum cops online for robbing a bank
 
     /* Medic related settings*/
-    allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
+    allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
 
     /* Revive system settings */
-    revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+    revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
+    revive_fee = 5000; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
     house_limit = 5; //Maximum amount of houses a player can own.
 
     /* Gang related settings */
-    gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
+    gang_price = 500000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_upgradeBase = 500000; //The base cost for upgrading slots in a gang
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
     enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
-    paycheck_period = 5; //Scaled in minutes
+    paycheck_period = 10; //Scaled in minutes
 
     /* Impound Variables */
-    impound_car = 350; //Price for impounding cars
-    impound_boat = 250; //Price for impounding boats
-    impound_air = 850; //Price for impounding helicopters / planes
+    impound_car = 3500; //Price for impounding cars
+    impound_boat = 2500; //Price for impounding boats
+    impound_air = 10000; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
-    bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 3000; //Amount of cash on bank for new civillians
-    bank_med = 6500; //Amount of cash on bank for new medics
+    bank_cop = 2500; //Amount of cash on bank for new cops
+    bank_civ = 2500; //Amount of cash on bank for new civillians
+    bank_med = 2500; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 500; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_cop = 5000; //Payment for cops
+    paycheck_civ = 3500; //Payment for civillians
+    paycheck_med = 4500; //Payment for medics
 
     /* Federal Reserve settings */
-    noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
+    noatm_timer = 15; //Time in minutes that players won't be able to deposit his money after selling stolen gold
 
     /* Spyglass settings */
     spyglass_init = false; //Enable or disable spyglass

@@ -6215,7 +6215,7 @@
     </Key>
     <Key ID="STR_MAR_Wong_Food_Cart">
       <Original>Wongs Food Cart</Original>
-      <German>Wongs Spezialitäten</German>
+      <German>Falsche Spezialitäten</German>
       <Portuguese>Boteco do Wongs</Portuguese>
       <Polish>Bar u Wonga</Polish>
     </Key>
@@ -6301,42 +6301,53 @@
   <Package name="Crimes">
     <Key ID="STR_Crime_187V">
       <Original>Vehicular Manslaughter</Original>
+	  <German>Überfahren einer Person</German>
     </Key>
     <Key ID="STR_Crime_187">
       <Original>Manslaughter</Original>
+	  <German>Mord</German>
     </Key>
     <Key ID="STR_Crime_901">
       <Original>Escaping Jail</Original>
+	  <German>Gefängisausbruch</German>
     </Key>
     <Key ID="STR_Crime_215">
       <Original>Attempted Auto Theft</Original>
+	  <German>Versuchter Autodiebstahl</German>
     </Key>
     <Key ID="STR_Crime_213">
       <Original>Use of illegal explosives</Original>
     </Key>
     <Key ID="STR_Crime_211">
       <Original>Robbery</Original>
+	  <German>Raubüberfall</German>
     </Key>
     <Key ID="STR_Crime_207">
       <Original>Kidnapping</Original>
+	  <German>Geiselnahme</German>
     </Key>
     <Key ID="STR_Crime_207A">
       <Original>Attempted Kidnapping</Original>
+	  <German>Versuchte Geiselnahme</German>
     </Key>
     <Key ID="STR_Crime_390">
       <Original>Public Intoxication</Original>
     </Key>
     <Key ID="STR_Crime_487">
       <Original>Grand Theft</Original>
+	  <German>Schwerer Diebstahl</German>
     </Key>
     <Key ID="STR_Crime_488">
       <Original>Petty Theft</Original>
+	  <German>Leichter Diebstahl</German>
     </Key>
     <Key ID="STR_Crime_480">
       <Original>Hit and run</Original>
+	  <German>Fahrerflucht</German>
     </Key>
     <Key ID="STR_Crime_481">
       <Original>Drug Possession</Original>
+	  <German>Drogenverarbeitung</German>
     </Key>
     <Key ID="STR_Crime_482">
       <Original>Intent to distribute</Original>
@@ -6352,58 +6363,73 @@
     </Key>
     <Key ID="STR_Crime_667">
       <Original>Terrorism</Original>
+	  <German>Terrorisieren</German>
     </Key>
     <Key ID="STR_Crime_668">
       <Original>Unlicensed Hunting</Original>
+	  <German>Jagen ohne Lizenz</German>
     </Key>
     <Key ID="STR_Crime_919">
       <Original>Organ Theft</Original>
+	  <German>Organ Diebstahl</German>
     </Key>
     <Key ID="STR_Crime_919A">
       <Original>Attempted Organ Theft</Original>
+	  <German>Versuchter Organ Diebstahl</German>
     </Key>
     <Key ID="STR_Crime_1">
       <Original>Driving without license</Original>
+	  <German>Fahren ohne Führerschein</German>
       <French>Absence du permis de conduire</French>
     </Key>
     <Key ID="STR_Crime_2">
       <Original>Driving in the wrong way of the street</Original>
+	  <German>Geisterfahrer</German>
       <French>Conduite sur le mauvais côté de la route</French>
     </Key>
     <Key ID="STR_Crime_3">
       <Original>Not respecting the signalizations</Original>
+	  <German>Nicht befolgen Polizeilicher Befehle</German>
       <French>Non respect des signalisations</French>
     </Key>
     <Key ID="STR_Crime_4">
       <Original>Speeding</Original>
+	  <German>Überhöhte Geschwindigkeit</German>
       <French>Excès de vitesse</French>
     </Key>
     <Key ID="STR_Crime_5">
       <Original>No headlight in the night</Original>
+	  <German>Fahren ohne Licht in der Dunkelheit</German>
       <French>Absence de phare la nuit</French>
     </Key>
     <Key ID="STR_Crime_6">
       <Original>Driving kart without helmet</Original>
+	  <German>Kart fahren ohne Helm</German>
       <French>Non-port du casque en Kart</French>
     </Key>
     <Key ID="STR_Crime_7">
       <Original>Badly parked vehicle</Original>
+	  <German>Falsch Parken</German>
       <French>Véhicule mal garé</French>
     </Key>
     <Key ID="STR_Crime_8">
       <Original>Rebel vehicle (Not armed)</Original>
+	  <German>Rebellen Fahrzeug (Unbewaffnet)</German>
       <French>Véhicule rebel non armé</French>
     </Key>
     <Key ID="STR_Crime_9">
       <Original>Grand Theft (Civilian Vehicle)</Original>
+	  <German>Schwerer Diebstahl (Zivilles Fahrzeug)</German>
       <French>Vol de véhicule civil</French>
     </Key>
     <Key ID="STR_Crime_10">
       <Original>Grand Theft (Military Vehicle)</Original>
+	  <German>Schwerer Diebstahl (Millitärisches Fahrzeug)</German>
       <French>Vol de véhicule militaire</French>
     </Key>
     <Key ID="STR_Crime_11">
       <Original>Armored Vehicle</Original>
+	  <German>Gepanzertes Fahrzeug</German>
       <French>Véhicules blindés</French>
     </Key>
     <Key ID="STR_Crime_12">
@@ -6416,18 +6442,22 @@
     </Key>
     <Key ID="STR_Crime_14">
       <Original>Open carry in city (Legal Weapon)</Original>
+	  <German>Offenes tragen einer illigalen Waffe</German>
       <French>Arme légale visible en ville</French>
     </Key>
     <Key ID="STR_Crime_15">
       <Original>Rebel weapon</Original>
+	  <German>Rebellen Waffe</German>
       <French>Armes rebelles</French>
     </Key>
     <Key ID="STR_Crime_16">
       <Original>Ilegal clothing</Original>
+	  <German>Illigale Kleidung</German>
       <French>Vêtements illégaux</French>
     </Key>
     <Key ID="STR_Crime_17">
       <Original>Hiding face (Mask)</Original>
+	  <German>Vermummung</German>
       <French>Cacher son visage</French>
     </Key>
     <Key ID="STR_Crime_18">
@@ -6436,6 +6466,7 @@
     </Key>
     <Key ID="STR_Crime_19">
       <Original>Hit and run</Original>
+	  <German>Fahrerflucht</German>
       <French>Délit de fuite</French>
     </Key>
     <Key ID="STR_Crime_20">
@@ -6448,6 +6479,7 @@
     </Key>
     <Key ID="STR_Crime_22">
       <Original>Drug dealing</Original>
+	  <German>Drogenhandel</German>
       <French>Trafique de drogue</French>
     </Key>
     <Key ID="STR_Crime_23">
@@ -6456,6 +6488,7 @@
     </Key>
     <Key ID="STR_Crime_24">
       <Original>Killing of a civilian</Original>
+	  <German>Töten eines Zvillisten</German>
       <French>Meurtre d'un civil</French>
     </Key>
     <Key ID="STR_Crime_25">
