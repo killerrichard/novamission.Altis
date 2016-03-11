@@ -311,7 +311,7 @@ class LifeCfgVehicles {
     };
 
     class B_G_Offroad_01_F {
-        vItemSpace = 150;
+        vItemSpace = 75;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
@@ -320,7 +320,7 @@ class LifeCfgVehicles {
     };
 
     class B_G_Offroad_01_armed_F {
-        vItemSpace = 150;
+        vItemSpace = 75;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 4000, 0, 0, 0 };
         insurance = 2500;
