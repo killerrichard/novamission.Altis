@@ -254,22 +254,24 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_IG_Guerilla1_1", "", 5000, {"", "", -1} },
-            { "U_I_G_Story_Protagonist_F", "", 7500, { "", "", -1 } },
-            { "U_I_G_resistanceLeader_F", "", 11500, { "", "", -1 } },
-            { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
-            { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
-            { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+            { "U_B_CombatUniform_mcam", "", 20000, {"", "", -1} },
+            { "U_B_CombatUniform_mcam_tshirt", "", 20000, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam_vest", "", 20000, { "", "", -1 } },
+            { "U_B_GhillieSuit", "", 75000, { "", "", -1 } },
+            { "U_BG_Guerrilla_6_1", "", 20000, { "", "", -1 } },
+            { "U_IG_Guerilla1_1", 20000, { "", "", -1 } },
+            { "U_B_HeliPilotCoveralls", "", 20000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } },
-            { "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
-            { "H_Shemag_olive", "", 850, { "", "", -1 } },
-            { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
-            { "H_HelmetO_ocamo", "", 2500, { "", "", -1 } },
-            { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_Bandanna_camo", "", 650, { "", "", -1 } }
+            { "H_HelmetSpecO_ocamo", "", 5000, { "", "", -1 } },
+            { "H_Watchcap_blk", "", 5000, { "", "", -1 } },
+            { "H_Bandanna_camo", "", 5000, { "", "", -1 } },
+            { "H_MilCap_oucamo", "", 5000, { "", "", -1 } },
+            { "H_PilotHelmetFighter_B", "", 10000, { "", "", -1 } },
+            { "H_Shemag_olive", "", 5000, { "", "", -1 } },
+			{ "H_ShemagOpen_tan", "", 50000, { "", "", -1 } },
+			{ "G_Bandanna_blk", "", 50000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Keine Brille", 0, { "", "", -1 } },
@@ -298,9 +300,10 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Keine Weste", 0, { "", "", -1 } },
-            { "V_TacVest_khk", "", 12500, { "", "", -1 } },
-            { "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 7500, { "", "", -1 } }
+            { "V_TacVest_brn", "", 5000, { "", "", -1 } },
+            { "V_TacVest_camo", "", 5000, { "", "", -1 } },
+            { "V_BandollierB_cbr", "", 5000, { "", "", -1 } },
+			{ "V_HarnessOGL_brn", "", 10000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Kein Rucksack", 0, { "", "", -1 } },

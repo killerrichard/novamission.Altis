@@ -22,17 +22,25 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
-            { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 },
-            { "optic_ACO_grn_smg", "", 2500, 250 }
+			{ "hgun_Pistol_Signal_F", "", 2500, 250 },
+            { "hgun_Rook40_F", "", 35000, 1500 },
+            { "hgun_Pistol_heavy_02_F", "", 50000, -1 },
+            { "hgun_ACPC2_F", "", 40000, -1 },
+            { "hgun_PDW2000_F", "", 75000, -1 },
+            { "SMG_01_F", "", 100000, -1 },
+			{ "optic_ACO_grn_smg", "", 10000, -1 },
+			{ "optic_Aco_smg", "", 10000, -1 },
+			{ "optic_MRD", "", 10000, -1 },
+			{ "optic_Yorris", "", 10000, -1 }
         };
         mags[] = {
+			{ "6Rnd_GreenSignal_F", "", 25 },
+			{ "6Rnd_RedSignal_F", "", 25 },
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "30Rnd_9x21_Mag", "", 75 },
+			{ "30Rnd_45ACP_Mag_SMG_01", "", 100 }
         };
     };
 
@@ -42,20 +50,42 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_TRG20_F", "", 25000, 2500 },
-            { "arifle_Katiba_F", "", 30000, 5000 },
-            { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, 7500 },
-            { "optic_ACO_grn", "", 3500, 350 },
-            { "optic_Holosight", "", 3600, 275 },
-            { "optic_Hamr", "", 7500, -1 },
-            { "acc_flashlight", "", 1000, 100 }
+			{ "hgun_Pistol_Signal_F", "", 25000, 2500 },
+            { "arifle_TRG20_F", "", 150000, 15000 },
+			{ "arifle_TRG21_F", "", 175000, 17500 },
+            { "arifle_Katiba_F", "", 200000, 20000 },
+            { "srifle_DMR_01_F", "", 400000, 40000 },
+            { "arifle_SDAR_F", "", 200000, 20000 },
+			{ "arifle_Mk20C_F", "", 180000, 18000 },
+			{ "arifle_Mk20_F", "", 200000, 20000 },
+			{ "srifle_DMR_06_camo_F", "", 200000, 20000 },
+            { "optic_ACO_grn", "", 20000, 2000 },
+            { "optic_Aco_smg", "", 20000, 2000 },
+			{ "optic_Holosight", "", 20000, 2000 },
+			{ "optic_DMS", "", 200000, 20000 },
+			{ "optic_Arco", "", 50000, 5000 },
+            { "optic_Hamr", "", 50000, 5000 },
+			{ "optic_MRCO", "", 30000, 3000 },
+            { "acc_flashlight", "", 25000, 2500 },
+			{ "acc_pointer_IR", "", 25000, 2500 },
+			{ "SmokeShell", "", 10000, 1000 },
+			{ "SmokeShellGreen", "", 10000, 1000 },
+			{ "SmokeShellRed", "", 10000, 1000 },
+			{ "Chemlight_green", "", 1000, 100 },
+			{ "Chemlight_red", "", 1000, 100 },
+			{ "Chemlight_yellow", "", 1000, 100 },
+			{ "Chemlight_blue", "", 1000, 100 }
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "30Rnd_65x39_caseless_green", "", 275 },
-            { "10Rnd_762x54_Mag", "", 500 },
-            { "20Rnd_556x45_UW_mag", "", 125 }
+            { "30Rnd_556x45_Stanag", "", 1500 },
+			{ "30Rnd_556x45_Stanag_Tracer_Green", "", 1000 },
+            { "30Rnd_65x39_caseless_green", "", 2000 },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 1500 },
+            { "10Rnd_762x54_Mag", "", 4000 },
+			{ "20Rnd_762x51_Mag", "", 5000 },
+			{ "6Rnd_GreenSignal_F", "", 250 },
+			{ "6Rnd_RedSignal_F", "", 250 },
+            { "20Rnd_556x45_UW_mag", "", 2000 }
         };
     };
 
@@ -86,14 +116,14 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 5000, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
             { "ItemWatch", "", 50, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
+            { "ToolKit", "", 2000, 200 },
+            { "FirstAidKit", "", 1000, 100 },
+            { "NVGoggles", "", 10000, 1000 },
             { "Chemlight_red", "", 300, -1 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
@@ -114,8 +144,8 @@ class WeaponShops {
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, -1 },
             { "ToolKit", "", 1250, 75 },
-            { "FirstAidKit", "", 750, 65 },
-            { "NVGoggles", "", 10000, 980 },
+            { "FirstAidKit", "", 1000, 100 },
+            { "NVGoggles", "", 10000, 1000 },
             { "Chemlight_red", "", 1500, -1 },
             { "Chemlight_yellow", "", 1500, 50 },
             { "Chemlight_green", "", 1500, 50 },
@@ -135,13 +165,13 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
             { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 5000, -1 },
             { "ItemGPS", "", 100, 45 },
-            { "ToolKit", "", 250, 75 },
+            { "ToolKit", "", 2000, 200 },
             { "muzzle_snds_L", "", 650, -1 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 1000, 450 },
-            { "NVGoggles", "", 2000, 980 }
+            { "FirstAidKit", "", 1000, 100 },
+            { "Medikit", "", 2000, 200 },
+            { "NVGoggles", "", 10000, 1000 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -198,10 +228,10 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "ItemGPS", "", 100, 45 },
-            { "Binocular", "", 150, -1 },
-            { "ToolKit", "", 250, 75 },
+            { "Binocular", "", 5000, -1 },
+            { "ToolKit", "", 2000, 200 },
             { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 500, 450 },
+            { "Medikit", "", 10, 1 },
             { "NVGoggles", "", 1200, 980 }
         };
         mags[] = {};

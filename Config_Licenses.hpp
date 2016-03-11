@@ -43,7 +43,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 10000;
+        price = 50000;
         illegal = false;
         side = "civ";
     };
@@ -157,7 +157,7 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 75000;
+        price = 3000000;
         illegal = true;
         side = "civ";
     };
