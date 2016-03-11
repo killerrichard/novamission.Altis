@@ -419,7 +419,7 @@ class LifeCfgVehicles {
     };
 
     class C_Offroad_01_F {
-        vItemSpace = 150;
+        vItemSpace = 75;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
         insurance = 2500;
