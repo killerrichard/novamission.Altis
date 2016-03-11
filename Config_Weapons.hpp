@@ -67,7 +67,14 @@ class WeaponShops {
             { "optic_Hamr", "", 50000, 5000 },
 			{ "optic_MRCO", "", 30000, 3000 },
             { "acc_flashlight", "", 25000, 2500 },
-			{ "acc_pointer_IR", "", 25000, 2500 }
+			{ "acc_pointer_IR", "", 25000, 2500 },
+			{ "SmokeShell", "", 10000, 1000 },
+			{ "SmokeShellGreen", "", 10000, 1000 },
+			{ "SmokeShellRed", "", 10000, 1000 },
+			{ "Chemlight_green", "", 1000, 100 },
+			{ "Chemlight_red", "", 1000, 100 },
+			{ "Chemlight_yellow", "", 1000, 100 },
+			{ "Chemlight_blue", "", 1000, 100 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 1500 },
@@ -109,14 +116,14 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 5000, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
             { "ItemWatch", "", 50, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
+            { "ToolKit", "", 2000, 200 },
+            { "FirstAidKit", "", 1000, 100 },
+            { "NVGoggles", "", 10000, 1000 },
             { "Chemlight_red", "", 300, -1 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
@@ -137,8 +144,8 @@ class WeaponShops {
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, -1 },
             { "ToolKit", "", 1250, 75 },
-            { "FirstAidKit", "", 750, 65 },
-            { "NVGoggles", "", 10000, 980 },
+            { "FirstAidKit", "", 1000, 100 },
+            { "NVGoggles", "", 10000, 1000 },
             { "Chemlight_red", "", 1500, -1 },
             { "Chemlight_yellow", "", 1500, 50 },
             { "Chemlight_green", "", 1500, 50 },
@@ -158,13 +165,13 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
             { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 5000, -1 },
             { "ItemGPS", "", 100, 45 },
-            { "ToolKit", "", 250, 75 },
+            { "ToolKit", "", 2000, 200 },
             { "muzzle_snds_L", "", 650, -1 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 1000, 450 },
-            { "NVGoggles", "", 2000, 980 }
+            { "FirstAidKit", "", 1000, 100 },
+            { "Medikit", "", 2000, 200 },
+            { "NVGoggles", "", 10000, 1000 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -221,8 +228,8 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "ItemGPS", "", 100, 45 },
-            { "Binocular", "", 150, -1 },
-            { "ToolKit", "", 250, 75 },
+            { "Binocular", "", 5000, -1 },
+            { "ToolKit", "", 2000, 200 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 10, 1 },
             { "NVGoggles", "", 1200, 980 }
