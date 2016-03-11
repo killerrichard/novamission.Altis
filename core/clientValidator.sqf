@@ -1,6 +1,6 @@
 #include "..\script_macros.hpp"
 /*
-	Description:
+	Descriptions:
 	Loops through a list of variables and checks whether
 	or not they are defined, if they are defined then trigger
 	spyglass and kick the client to the lobby.
