@@ -207,10 +207,12 @@
     </Key>
     <Key ID="STR_Global_Mags">
       <Original>Magazines</Original>
+	  <German>Magazine</German>
       <Portuguese>Munições</Portuguese>
     </Key>
     <Key ID="STR_Global_Weapons">
       <Original>Weapons</Original>
+	  <German>Waffen</German>
       <Portuguese>Armas</Portuguese>
     </Key>
     <Key ID="STR_Global_Give">
@@ -619,6 +621,7 @@
     </Key>
     <Key ID="STR_ATM_WithdrawSuccessG">
       <Original>You have withdrawn $%1 from your gang</Original>
+	  <German>Du hast $%1 von dem Gangkonto abgehoben</German>
       <French>Vous avez retiré $%1 de votre gang</French>
       <Portuguese>Você sacou R$%1 da sua gangue</Portuguese>
     </Key>
@@ -2824,6 +2827,7 @@
     </Key>
     <Key ID="STR_Cop_ContainerEmpty">
       <Original>This container is empty</Original>
+	  <German>Die Kiste ist leer</German>
       <French>Ce container est vide</French>
     </Key>
     <Key ID="STR_Cop_RobberDead">
@@ -6318,6 +6322,7 @@
     </Key>
     <Key ID="STR_Crime_213">
       <Original>Use of illegal explosives</Original>
+	  <German>Die Verwendung von illegalen Sprengstoff</German>
     </Key>
     <Key ID="STR_Crime_211">
       <Original>Robbery</Original>
@@ -6333,6 +6338,7 @@
     </Key>
     <Key ID="STR_Crime_390">
       <Original>Public Intoxication</Original>
+	  <German>Öffentliche Berauschung</German>
     </Key>
     <Key ID="STR_Crime_487">
       <Original>Grand Theft</Original>
@@ -6352,9 +6358,11 @@
     </Key>
     <Key ID="STR_Crime_482">
       <Original>Intent to distribute</Original>
+	  <German>Absicht zu verteilen</German>
     </Key>
     <Key ID="STR_Crime_483">
       <Original>Drug Trafficking</Original>
+	  <German>Drogenhandel</German>
     </Key>
     <Key ID="STR_Crime_459">
       <Original>Burglary</Original>
@@ -6362,6 +6370,7 @@
     </Key>
     <Key ID="STR_Crime_666">
       <Original>Tax Evasion</Original>
+	  <German>Steuerhinterziehung</German>
     </Key>
     <Key ID="STR_Crime_667">
       <Original>Terrorism</Original>
@@ -6436,10 +6445,12 @@
     </Key>
     <Key ID="STR_Crime_12">
       <Original>Flying over the city without authorization</Original>
+	  <German>Fliegen über der Stadt ohne Genehmigung</German>
       <French>Survol de ville sans autorisation</French>
     </Key>
     <Key ID="STR_Crime_13">
       <Original>Closing the street without authorization</Original>
+	  <German>Straßensperre ohne Genehmigung</German>
       <French>Interdiction de se poser sans autorisation</French>
     </Key>
     <Key ID="STR_Crime_14">
@@ -6464,6 +6475,7 @@
     </Key>
     <Key ID="STR_Crime_18">
       <Original>Refuses to cooperate</Original>
+	  <German>Weigert sich zu kooperieren</German>
       <French>Refus d'obtempérer</French>
     </Key>
     <Key ID="STR_Crime_19">
@@ -6473,10 +6485,12 @@
     </Key>
     <Key ID="STR_Crime_20">
       <Original>Insulting a civilian</Original>
+	  <German>Zivillistenbeleidigung</German>
       <French>Insulte envers un civil</French>
     </Key>
     <Key ID="STR_Crime_21">
       <Original>Insulting a soldier</Original>
+	  <German>Beamtenbeleidgung</German>
       <French>Insulte envers un militaire</French>
     </Key>
     <Key ID="STR_Crime_22">
@@ -6486,6 +6500,7 @@
     </Key>
     <Key ID="STR_Crime_23">
       <Original>Federal research breaking</Original>
+	  <German>Bundesforschungsbruch</German>
       <French>Intrusion dans le coffre du gouverneur</French>
     </Key>
     <Key ID="STR_Crime_24">
@@ -6495,6 +6510,7 @@
     </Key>
     <Key ID="STR_Crime_25">
       <Original>Killing of a soldier</Original>
+	  <German>Polizistenmord</German>
       <French>Meurtre d'un militaire</French>
     </Key>
 	</Package>
