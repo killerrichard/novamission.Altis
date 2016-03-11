@@ -201,8 +201,8 @@ class VirtualItems {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
         weight = 1;
-        buyPrice = 1500;
-        sellPrice = 75;
+        buyPrice = 2500;
+        sellPrice = 100;
         illegal = true;
         edible = -1;
         icon = "icons\ico_lockpick.paa";
@@ -213,7 +213,7 @@ class VirtualItems {
         displayName = "STR_Item_GoldBar";
         weight = 12;
         buyPrice = -1;
-        sellPrice = 95000;
+        sellPrice = 350000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_goldbar.paa";
@@ -267,7 +267,7 @@ class VirtualItems {
         variable = "storageBig";
         displayName = "STR_Item_StorageBL";
         weight = 10;
-        buyPrice = 150000;
+        buyPrice = 250000;
         sellPrice = -1;
         illegal = false;
         edible = -1;
