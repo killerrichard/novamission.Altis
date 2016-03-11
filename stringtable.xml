@@ -7,6 +7,10 @@
       <Portuguese>Loja de Roupas</Portuguese>
       <Polish>Sklep odzieżowy</Polish>
     </Key>
+	<Key ID="STR_Shops_C_UAA">
+      <Original>UAA Shop</Original>
+      <German>UAA Shop</German>
+    </Key>
     <Key ID="STR_Shops_C_Police">
       <Original>Altis Police Department Shop</Original>
       <German>Altis Polizei Shop</German>
