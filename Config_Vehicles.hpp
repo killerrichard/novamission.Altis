@@ -61,11 +61,18 @@ class CarShops {
             { "C_Van_01_box_F", 150000, { "trucking" }, { "", "", -1 } },
             { "I_Truck_02_transport_F", 375000, { "trucking" }, { "", "", -1 } },
             { "I_Truck_02_covered_F", 525000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_transport_F", 2250000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_fuel_F", 300000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_box_F", 300000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_transport_F", 2250000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_covered_F", 3750000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_ammo_F", 2000000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_fuel_F", 2000000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_transport_F", 2250000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_covered_F", 1000000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_fuel_F", 1000000, { "trucking" }, { "", "", -1 } },
             { "B_Truck_01_box_F", 3750000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_device_F", 9750000, { "trucking" }, { "", "", -1 } }
+            { "O_Truck_03_device_F", 9750000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_mover_F", 1000000, { "trucking" }, { "", "", -1 } }
         };
     };
 
