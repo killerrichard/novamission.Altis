@@ -18,7 +18,7 @@ class Clothing {
         license = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
             { "U_C_Poloshirt_blue", "Poloshirt Blue", 250, { "", "", -1 } },
             { "U_C_Poloshirt_burgundy", "Poloshirt Burgundy", 275, { "", "", -1 } },
             { "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, { "", "", -1 } },
@@ -112,8 +112,8 @@ class Clothing {
         license = "";
         side = "cop";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Cop Uniform", 25, { "", "", -1 } },
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
+            { "U_Rangemaster", "Cop Kleidung", 25, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_tshirt", "", 350, { "life_coplevel", "SCALAR", 1 } },
             { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
             { "U_B_CombatUniform_mcam_worn", "", 550, { "life_coplevel", "SCALAR", 2 } }
@@ -160,7 +160,7 @@ class Clothing {
         license = "dive";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
             { "U_B_Wetsuit", "", 2000, { "", "", -1 } }
         };
         headgear[] = {
@@ -184,7 +184,7 @@ class Clothing {
         license = "gun";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } }
@@ -206,7 +206,7 @@ class Clothing {
         license = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } }
@@ -228,8 +228,8 @@ class Clothing {
         license = "";
         side = "med";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "EMS Uniform", 50, { "", "", -1 } }
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
+            { "U_Rangemaster", "EMS Kleidung", 50, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } },
@@ -253,7 +253,7 @@ class Clothing {
         license = "rebel";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "", 20000, {"", "", -1} },
             { "U_B_CombatUniform_mcam_tshirt", "", 20000, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_vest", "", 20000, { "", "", -1 } },
@@ -340,7 +340,7 @@ class Clothing {
         license = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
             { "U_C_Driver_1_black", "", 1500, { "", "", -1 } },
             { "U_C_Driver_1_blue", "", 1500, { "", "", -1 } },
             { "U_C_Driver_1_red", "", 1500, { "", "", -1 } },
@@ -382,7 +382,7 @@ class Clothing {
         license = "uaa";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "NONE", "Entferne Kleidung", 0, { "", "", -1 } },
             { "U_BG_Guerilla1_1", "", 2000, { "", "", -1 } },
             { "U_I_CombatUniform", "", 2000, { "", "", -1 } },
             { "U_I_CombatUniform_tshirt", "", 2000, { "", "", -1 } },
