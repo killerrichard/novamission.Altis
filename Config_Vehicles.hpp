@@ -86,16 +86,16 @@ class CarShops {
             { "C_Offroad_01_F", 18750, { "" }, { "", "", -1 } },
             { "C_SUV_01_F", 37500, { "" }, { "", "", -1 } },
             { "C_Hatchback_01_sport_F", 75000, { "" }, { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", 100000, { "" }, { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", 50000000, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_MRAP_01_F", 75000, { "" }, { "life_coplevel", "SCALAR", 2 } },
+            { "B_MRAP_01_hmg_F", 37500000, { "" }, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 500000, { "pilot" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 2000000, { "pilot" }, { "", "", -1 } }
+            { "B_Heli_Light_01_F", 375000, { "pilot" }, { "", "", -1 } },
+            { "O_Heli_Light_02_unarmed_F", 1500000, { "pilot" }, { "", "", -1 } }
         };
     };
 
@@ -110,19 +110,19 @@ class CarShops {
     class cop_ship {
         side = "cop";
         vehicles[] = {
-            { "B_Boat_Transport_01_F", 2000, { "cg" }, { "", "", -1 } },
-            { "C_Boat_Civil_01_police_F", 50000, { "cg" }, { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", 200000, { "cg" }, { "life_coplevel", "SCALAR", 3 } },
-            { "B_SDV_01_F", 300000, { "cg" }, { "", "", -1 } }
+            { "B_Boat_Transport_01_F", 1500, { "cg" }, { "", "", -1 } },
+            { "C_Boat_Civil_01_police_F", 37500, { "cg" }, { "", "", -1 } },
+            { "B_Boat_Armed_01_minigun_F", 150000, { "cg" }, { "life_coplevel", "SCALAR", 3 } },
+            { "B_SDV_01_F", 225000, { "cg" }, { "", "", -1 } }
         };
     };
 
     class civ_ship {
         side = "civ";
         vehicles[] = {
-            { "C_Rubberboat", 20000, { "boat" }, { "", "", -1 } },
-            { "C_Boat_Civil_01_F", 50000, { "boat" }, { "", "", -1 } },
-            { "B_SDV_01_F", 300000, { "boat" }, { "", "", -1 } }
+            { "C_Rubberboat", 15000, { "boat" }, { "", "", -1 } },
+            { "C_Boat_Civil_01_F", 37500, { "boat" }, { "", "", -1 } },
+            { "B_SDV_01_F", 225000, { "boat" }, { "", "", -1 } }
         };
     };
 };
