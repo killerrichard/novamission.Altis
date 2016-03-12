@@ -40,18 +40,20 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", 18750, { "" }, { "", "", -1 } },
-            { "I_Truck_02_medical_F", 18750, { "" }, { "", "", -1 } },
-            { "O_Truck_03_medical_F", 33750, { "" }, { "", "", -1 } },
-            { "B_Truck_01_medical_F", 45000, { "" }, { "", "", -1 } }
+            { "C_Offroad_01_F", 10000, { "" }, { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", 25000, { "" }, { "life_medlevel", "SCALAR", 4 } },
+            { "O_Truck_03_medical_F", 45000, { "" }, { "life_medlevel", "SCALAR", 5 } },
+			{ "C_Van_01_box_F", 30000, { "" }, { "life_medlevel", "SCALAR", 2 } },
+            { "C_SUV_01_F", 20000, { "" }, { "life_medlevel", "SCALAR", 3 } },
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 37500, { "mAir" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 56250, { "mAir" }, { "", "", -1 } }
+            { "B_Heli_Light_01_civil_F", 50000, { "mAir" }, { "life_medlevel", "SCALAR", 2 } },
+            { "O_Heli_Light_02_unarmed_F", 75000, { "mAir" }, { "life_medlevel", "SCALAR", 3 } },
+			{ "B_Heli_Attack_01_F", 50000, { "mAir" }, {"life_medlevel", "SCALAR", 5} }
         };
     };
 
@@ -87,7 +89,8 @@ class CarShops {
             { "C_SUV_01_F", 37500, { "" }, { "", "", -1 } },
             { "C_Hatchback_01_sport_F", 75000, { "" }, { "life_coplevel", "SCALAR", 1 } },
             { "B_MRAP_01_F", 75000, { "" }, { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", 37500000, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_MRAP_01_hmg_F", 37500000, { "" }, { "life_coplevel", "SCALAR", 3 } },
+			{ "I_Truck_02_repair_F", 750000, { "" }, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
@@ -213,8 +216,8 @@ class LifeCfgVehicles {
         chopShop = 100000;
         textures[] = {
             { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "\textures\cop\Hunter_case.paa"
+                "\textures\cop\Hunter_plane.paa"
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
@@ -454,7 +457,10 @@ class LifeCfgVehicles {
             } },
             { "Police", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
-            } }
+            } },
+			{ "Medic", "med", {
+				"\textures\med\medic_offroad.paa"
+			}}
         };
     };
 
@@ -539,7 +545,10 @@ class LifeCfgVehicles {
             } },
             { "Police", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
-            } }
+            } },
+			{ "Medic", "med", {
+				"\textures\med\medic_hatchback.paa"
+			}}
         };
     };
 
@@ -676,6 +685,9 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
+			{ "Medic", "med", {
+				"\textures\med\medic_suv.paa"
+			}}
         };
     };
 
@@ -719,8 +731,8 @@ class LifeCfgVehicles {
         chopShop = 15000;
         textures[] = {
             { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+                "\textures\cop\Hunter_case.paa",
+                "\textures\cop\Hunter_plane.paa"
             } }
         };
     };
@@ -773,9 +785,6 @@ class LifeCfgVehicles {
             } },
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
-            } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
     };
@@ -799,8 +808,8 @@ class LifeCfgVehicles {
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "Medic", "med", {
+                "\textures\med\medic_orca.paa"
             } }
         };
     };
@@ -832,5 +841,45 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 75000;
         textures[] = {};
+    };
+	
+	class C_Heli_Light_01_civil_F {
+		vItemSpace = 100;
+		storageFee[] = { 75000, 0, 0, 0 };
+		garageSell[] = { 125000, 0, 0, 0 };
+		insurance = 2500;
+		chopShop = 5000;
+		textures[] = {
+			{ "Medic", "med", {
+				"textures\med\medic_heli.paa"
+			}}
+		};
+	};
+	
+	class B_Heli_Attack_01_F {
+		vItemSpace = 100;
+		storageFee[] = { 12000, 0, 0, 0 };
+		garageSell[] = { 49800, 3500, 0, 0 };
+		insurance = 500;
+		chopShop = 50000;
+		textures[] = {
+			{ "Medic", "med", {
+				"\textures\med\medic_blackfoot.paa"
+			}}
+		};
+	};
+	
+	class I_Truck_02_repair_F {
+        vItemSpace = 200;
+        storageFee[] = { 12000, 0, 0, 0 };
+        garageSell[] = { 49800, 3500, 0, 0 };
+        insurance = 6500;
+        chopShop = 37500;
+        textures[] = {
+            { "Gefangenen", "cop", {
+                "\textures\COP\zamak__GG_cab.paa",
+                "\textures\COP\zamak__GG_back.paa"
+            } }
+        };
     };
 };
