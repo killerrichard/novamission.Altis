@@ -1631,7 +1631,7 @@
     </Key>
     <Key ID="STR_Ticket_PayTicket">
       <Original>Pay Ticket</Original>
-      <German>Ticket bezahlen</German>
+      <German>Bezahlen</German>
       <French>Payer l'amende</French>
       <Italian>Paga Multa</Italian>
       <Portuguese>Pagar Multa</Portuguese>
@@ -1639,7 +1639,7 @@
     </Key>
     <Key ID="STR_Ticket_RefuseTicket">
       <Original>Refuse Ticket</Original>
-      <German>Ticket ablehnen</German>
+      <German>Ablehnen</German>
       <French>Contester l'amende</French>
       <Italian>Rifiuta Multa</Italian>
       <Portuguese>Recusar Multa</Portuguese>
@@ -5026,7 +5026,7 @@
     </Key>
     <Key ID="STR_vInAct_Unflip">
       <Original>Unflip Vehicle</Original>
-      <German>Fahrzeug umdrehen</German>
+      <German>Umdrehen</German>
       <French>Retourner Véhicule</French>
       <Italian>Raddrizza veicolo</Italian>
       <Portuguese>Desvirar Veículo</Portuguese>
@@ -5048,7 +5048,7 @@
     </Key>
     <Key ID="STR_vInAct_PushBoat">
       <Original>Push Boat</Original>
-      <German>Boot schieben</German>
+      <German>Schieben</German>
       <French>Pousser bateau</French>
       <Italian>Spingi Barca</Italian>
       <Portuguese>Empurrar Barco</Portuguese>
@@ -5056,7 +5056,7 @@
     </Key>
     <Key ID="STR_vInAct_Repair">
       <Original>Repair Vehicle</Original>
-      <German>Fahrzeug reparieren</German>
+      <German>Reparieren</German>
       <French>Réparer Véhicule</French>
       <Italian>Ripara Veicolo</Italian>
       <Portuguese>Consertar Veículo</Portuguese>
@@ -5072,7 +5072,7 @@
     </Key>
     <Key ID="STR_vInAct_SearchVehicle">
       <Original>Search Vehicle</Original>
-      <German>Fahrzeug durchsuchen</German>
+      <German>Durchsuchen</German>
       <French>Fouiller Véhicule</French>
       <Italian>Cerca Veicolo</Italian>
       <Portuguese>Vasculhar Veículo</Portuguese>
@@ -5080,11 +5080,12 @@
     </Key>
     <Key ID="STR_vInAct_SearchContainer">
       <Original>Search Container</Original>
+	  <German>Container Durchsuchen</German>
       <French>Fouiller Container</French>
     </Key>
     <Key ID="STR_vInAct_PullOut">
       <Original>Pullout Players</Original>
-      <German>Aus Fahrzeug ziehen</German>
+      <German>Herausziehen</German>
       <French>Sortir Personnes</French>
       <Italian>Estrai Giocatore</Italian>
       <Portuguese>Retirar Jogadores</Portuguese>
@@ -5092,7 +5093,7 @@
     </Key>
     <Key ID="STR_vInAct_Impound">
       <Original>Impound Vehicle</Original>
-      <German>Fahrzeug beschlagnahmen</German>
+      <German>Beschlagnahmen</German>
       <French>Mise en fourrière</French>
       <Italian>Sequestra Veicolo</Italian>
       <Portuguese>Apreender Veículo</Portuguese>
@@ -6204,11 +6205,13 @@
     </Key>
     <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
       <Original>Patrol Officer Weapon Shop</Original>
+	  <German>Polizei Waffen Shop</German>
       <Portuguese>Loja de Armas de Patrulha</Portuguese>
       <Polish>Broń patrolowa</Polish>
     </Key>
     <Key ID="STR_MAR_Sergeant_Weapon_Shop">
       <Original>Sergeant Weapon Shop</Original>
+	  <German>Sergeant Waffen Shop</German>
       <Portuguese>Lojas de Armas de Sargento</Portuguese>
       <Polish>Broń sierżanta</Polish>
     </Key>
@@ -6286,13 +6289,13 @@
     </Key>
     <Key ID="STR_MAR_EMS_Item_Shop">
       <Original>EMS Item Shop</Original>
-      <German>EMS Ausrüstung</German>
+      <German>Rettungsdienst Ausrüstung</German>
       <Portuguese>Loja de Items Médicos</Portuguese>
       <Polish>Wyposażenie medyczne</Polish>
     </Key>
     <Key ID="STR_MAR_EMS_Clothing_Shop">
       <Original>EMS Clothing Shop</Original>
-      <German>EMS Kleidungs-System</German>
+      <German>Rettungsdienst Kleidung</German>
       <Portuguese>EMS Roupa Loja</Portuguese>
       <Polish>Sklep odzieżowy EMS</Polish>
     </Key>
@@ -6337,7 +6340,7 @@
 	  <German>Die Verwendung von illegalen Sprengstoff</German>
     </Key>
     <Key ID="STR_Crime_211">
-      <Original>Robbery</Original>
+      <Original>Raubüberfall</Original>
 	  <German>Raubüberfall</German>
     </Key>
     <Key ID="STR_Crime_207">
@@ -6447,7 +6450,7 @@
     </Key>
     <Key ID="STR_Crime_10">
       <Original>Grand Theft (Military Vehicle)</Original>
-	  <German>Schwerer Diebstahl (Millitärisches Fahrzeug)</German>
+	  <German>Schwerer Diebstahl (Millitär Fahrzeug)</German>
       <French>Vol de véhicule militaire</French>
     </Key>
     <Key ID="STR_Crime_11">
@@ -6487,7 +6490,7 @@
     </Key>
     <Key ID="STR_Crime_18">
       <Original>Refuses to cooperate</Original>
-	  <German>Weigert sich zu kooperieren</German>
+	  <German>Behinderung der Staatsgewalt</German>
       <French>Refus d'obtempérer</French>
     </Key>
     <Key ID="STR_Crime_19">
