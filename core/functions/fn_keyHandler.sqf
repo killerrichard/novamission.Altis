@@ -77,6 +77,14 @@ switch (_code) do {
 			_handled = true;
 		};
 	};
+	
+	//Shift+P = Faded Sound
+	case 25: {
+		if(_shift) then    {
+			[] call life_fnc_fadeSound;
+			_handled = true;
+		};
+	};
 
 	//Map Key
 	case _mapKey: {
