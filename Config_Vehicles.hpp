@@ -406,8 +406,13 @@ class LifeCfgVehicles {
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 75000;
-        textures[] = { };
-    };
+		textures[] = {
+				{ "Blackmatte", "reb", {"textures\rebel\blackmatte.jpg", "textures\rebel\blackmatte.jpg"} },
+				{ "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} },
+				{ "Black", "cop", {"textures\rebel\blackmatte.jpg", "textures\rebel\blackmatte.jpg"} },
+				{ "Tarn Polizei", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+		};
+	};
 
     class I_MRAP_03_F {
         vItemSpace = 58;
@@ -519,6 +524,10 @@ class LifeCfgVehicles {
         insurance = 5500;
         chopShop = 15000;
         textures[] = {
+			
+			{ "Asilmov", "civ", {"textures\cars\asiimov_hatchback_textures.jpg"} },
+			{ "Natur", "civ", {"textures\cars\nature_hatchback.jpg"} },
+			
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
             } },
@@ -628,8 +637,12 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 4500, 3500, 0, 0 };
         insurance = 2500;
-        chopShop = 4750;
+        chopShop = 5000;
         textures[] = {
+			
+			{ "Asilmov", "civ", {"textures\cars\asiimov_hatchback_textures.jpg"} },
+			{ "Natur", "civ", {"textures\cars\nature_hatchback.jpg"} },
+				
             { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
             } },
@@ -664,6 +677,11 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 15000;
         textures[] = {
+			
+			{ "Sticker", "civ", {"textures\cars\sticker.jpg"} },
+			{ "Hello kitty", "civ", {"textures\cars\kitty.jpg"} },
+			{ "Würfel", "civ", {"textures\cars\cube_suv.jpg"} },
+			{ "Vektor", "civ", {"textures\cars\poly_suv.jpg"} },	
             { "Dark Red", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
             } },
