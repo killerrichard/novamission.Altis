@@ -77,16 +77,16 @@ player createDiarySubject ["controls","Steuerung"];
 				"
 				Z: Open Player Menu<br/>
 				U: Lock and unlock vehicles and houses<br/>
-				F: Cop Siren (if cop)<br/>
-				T: Vehicle Trunk<br/>
-				Left Shift + B: Surrender<br/>
-				Left Shift + R: Restrain (Cop Only)<br/>
-				Left Shift + G: Knock out / stun (Civ Only, used for robbing them)<br/>
-				Left Windows: Main Interaction key which is used for interacting with vehicles/houses (repair, etc) and for cops to interact with civilians. Can be rebound to a single key like H by pressing ESC->Configure->Controls->Custom->Use Action 10<br/>
-				Left Windows + T: Used for picking up items/money and gathering<br/>
-				Left Shift + L: Activates cop/medic siren lights (as a cop/medic)<br/>
-				Left Shift + H: Holster's your pistol<br/>
-				Left Ctrl + H: Revert holster action<br/>
+				F: Sirene (if cop)<br/>
+				T: Kofferraum<br/>
+				Linke Shifttaste + B: Ergeben<br/>
+				Linke Shifttaste + R: Festnehmen (Nur als Polizist)<br/>
+				Linke Shifttaste + G: Niederschlagen / stun (Nur für Zivilisen zum ausrauben)<br/>
+				Linke Windowstaste: Aktions Taste (farmen,Gegenstände benutzen, Fahrezuge rep, ect.)<br/>
+				Linke Windowstaste + T: Gegenstände aufheben/Geld nehmen<br/>
+				Linke Shifttaste + L: Activates cop/medic siren lights (as a cop/medic)<br/>
+				Linke Shifttaste + H: Waffe holstern<br/>
+				Linke Ctrltaste + H: Waffe in Anschlag nehmen action<br/>
 				"
 		]
 	];
