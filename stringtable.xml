@@ -517,10 +517,12 @@
     </Key>
     <Key ID="STR_ATM_WithdrawGang">
       <Original>Withdraw: Gang</Original>
+	  <German>Abheben: Gang</German>
       <Portuguese>Sacar: gangue</Portuguese>
     </Key>
     <Key ID="STR_ATM_DepositGang">
       <Original>Deposit: Gang</Original>
+	  <German>Einzahlen: Gang</German>
       <Portuguese>Depositar: Gangue</Portuguese>
     </Key>
     <Key ID="STR_ATM_Transfer">
@@ -1695,26 +1697,32 @@
     </Key>
     <Key ID="STR_Wanted_Add">
       <Original>Add</Original>
+	  <German>Hinzufügen</German>
       <Portuguese>Adicionar</Portuguese>
     </Key>
     <Key ID="STR_Wanted_People">
       <Original>Wanted People</Original>
+	  <German>Gesuchte Personen</German>
       <Portuguese>Pessoas Procuradas</Portuguese>
     </Key>
     <Key ID="STR_Wanted_Citizens">
       <Original>Citizens</Original>
+	  <German>Bürger</German>
       <Portuguese>Cidadãos</Portuguese>
     </Key>
     <Key ID="STR_Wanted_Crimes">
       <Original>Crimes</Original>
+	  <German>Verbrecher</German>
       <Portuguese>Crimes</Portuguese>
     </Key>
     <Key ID="STR_Wanted_AddP">
       <Original>%1 has been added to the wanted list.</Original>
+	  <German>%1 wurde zur Wantedliste hinzugefügt.</German>
       <Portuguese>%1 foi adicionado a lista de procurados.</Portuguese>
     </Key>
     <Key ID="STR_Wanted_Count">
       <Original>%1 count(s) of %2</Original>
+	  <German>%1 mal(e) von %2</German>
       <Portuguese>%1 contagem(s) de %2</Portuguese>
     </Key>
     <Key ID="STR_Wanted_Bounty">
@@ -2436,7 +2444,7 @@
     </Key>
     <Key ID="STR_NOTF_NoLootingPerson">
       <Original>You are not allowed to loot dead bodies</Original>
-      <German>Du darfst keine Leichen durchsuchen</German>
+      <German>Du darfst keine Leichen durchsuchen!</German>
       <Portuguese>Você não está liberado para lootiar corpos mortos</Portuguese>
       <Polish>Nie możesz przeszukiwać martwych ciał</Polish>
     </Key>
