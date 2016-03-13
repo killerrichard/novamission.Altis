@@ -84,7 +84,7 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "C_Offroad_01_F", 18750, { "" }, { "", "", -1 } },
-            { "C_SUV_01_F", 37500, { "" }, { "", "", -1 } },
+            { "C_SUV_01_F", 33500, { "" }, { "", "", -1 } },
             { "C_Hatchback_01_sport_F", 75000, { "" }, { "life_coplevel", "SCALAR", 1 } },
             { "B_MRAP_01_F", 75000, { "" }, { "life_coplevel", "SCALAR", 2 } },
             { "B_MRAP_01_hmg_F", 37500000, { "" }, { "life_coplevel", "SCALAR", 3 } }
