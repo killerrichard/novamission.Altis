@@ -731,8 +731,8 @@ class LifeCfgVehicles {
         chopShop = 15000;
         textures[] = {
             { "Black", "cop", {
-                "textures\cop\Hunter_case.paa",
-                "textures\cop\Hunter_plane.paa"
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
     };
@@ -864,8 +864,8 @@ class LifeCfgVehicles {
         chopShop = 37500;
         textures[] = {
             { "Gefangenen", "cop", {
-                "\textures\COP\zamak__GG_cab.paa",
-                "\textures\COP\zamak__GG_back.paa"
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
     };
