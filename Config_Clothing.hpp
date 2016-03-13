@@ -234,7 +234,7 @@ class Clothing {
         headgear[] = {
             { "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } },
             { "H_MilCap_gry", 150, { "", "", -1 } },
-			{ "H_Hat_brown", 150, { "life_medlevel", "SCALAR", 4 }}
+	    { "H_Hat_brown", 150, { "life_medlevel", "SCALAR", 4 }}
         };
         goggles[] = {
             { "NONE", "Keine Brille", 0, { "", "", -1 } },
