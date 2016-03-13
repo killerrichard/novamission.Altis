@@ -459,7 +459,7 @@ class LifeCfgVehicles {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             } },
 			{ "Medic", "med", {
-				"\textures\med\medic_offroad.paa"
+				"textures\med\medic_offroad.paa"
 			}}
         };
     };
@@ -547,7 +547,7 @@ class LifeCfgVehicles {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             } },
 			{ "Medic", "med", {
-				"\textures\med\medic_hatchback.paa"
+				"textures\med\medic_hatchback.paa"
 			}}
         };
     };
@@ -686,7 +686,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
 			{ "Medic", "med", {
-				"\textures\med\medic_suv.paa"
+				"textures\med\medic_suv.paa"
 			}}
         };
     };
@@ -731,8 +731,8 @@ class LifeCfgVehicles {
         chopShop = 15000;
         textures[] = {
             { "Black", "cop", {
-                "\textures\cop\Hunter_case.paa",
-                "\textures\cop\Hunter_plane.paa"
+                "textures\cop\Hunter_case.paa",
+                "textures\cop\Hunter_plane.paa"
             } }
         };
     };
@@ -809,7 +809,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "Medic", "med", {
-                "\textures\med\medic_orca.paa"
+                "textures\med\medic_orca.paa"
             } }
         };
     };
@@ -864,7 +864,7 @@ class LifeCfgVehicles {
 		chopShop = 50000;
 		textures[] = {
 			{ "Medic", "med", {
-				"\textures\med\medic_blackfoot.paa"
+				"textures\med\medic_blackfoot.paa"
 			}}
 		};
 	};
