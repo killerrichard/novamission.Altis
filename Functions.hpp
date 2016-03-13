@@ -374,7 +374,7 @@ class Life_Client_Core
 	
 	class Ausweis
     {
-        file = "core\Ausweis";
+        file = "scripts\ausweis";
         class Lizenzsehen {};
         class Lizenzzeigen {};
     };
