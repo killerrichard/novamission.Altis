@@ -372,4 +372,11 @@ class Life_Client_Core
 		class wireTransfer {};
 		class gangWithdraw {};
 	};
+	
+	class Ausweis
+    {
+        file = "scripts\ausweis";
+        class Lizenzsehen {};
+        class Lizenzzeigen {};
+    };
 };
