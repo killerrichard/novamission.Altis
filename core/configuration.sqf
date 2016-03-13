@@ -41,6 +41,7 @@ life_save_gear = [];
 life_container_activeObj = ObjNull;
 life_disable_getIn = false;
 life_disable_getOut = false;
+life_fadeSound = false;
 
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
@@ -64,7 +65,6 @@ life_delivery_in_progress = false;
 life_thirst = 100;
 life_hunger = 100;
 CASH = 0;
-life_fadeSound = false;
 
 life_istazed = false;
 life_isknocked = false;

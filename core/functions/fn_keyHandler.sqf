@@ -77,6 +77,14 @@ switch (_code) do {
 			_handled = true;
 		};
 	};
+	
+	//Shift+P = Faded Sound
+	case 25: {
+		if(_shift) then    {
+			[] call life_fnc_fadeSound;
+			_handled = true;
+		};
+	};
 
 	//Map Key
 	case _mapKey: {
@@ -119,14 +127,6 @@ switch (_code) do {
 		if(_shift) then {_handled = true;};
 		if(_shift && playerSide == west && {!isNull cursorTarget} && {cursorTarget isKindOf "Man"} && {(isPlayer cursorTarget)} && {(side cursorTarget in [civilian,independent])} && {alive cursorTarget} && {cursorTarget distance player < 3.5} && {!(cursorTarget GVAR "Escorting")} && {!(cursorTarget GVAR "restrained")} && {speed cursorTarget < 1}) then {
 			[] call life_fnc_restrainAction;
-		};
-	};
-	
-	//Shift+P = Faded Sound
-	case 25: {
-		if(_shift) then {
-			[] call life_fnc_fadeSound;
-			_handled = true;
 		};
 	};
 
