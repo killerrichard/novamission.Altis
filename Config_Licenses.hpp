@@ -157,7 +157,7 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 3000000;
+        price = 100000;
         illegal = true;
         side = "civ";
     };
@@ -186,5 +186,13 @@ class Licenses {
         price = 15000;
         illegal = false;
         side = "med";
+    };
+    //Gang Licenses
+        class rebel {
+        variable = "UAA";
+        displayName = "STR_License_uaa";
+        price = 1000000;
+        illegal = false;
+        side = "civ";
     };
 };
