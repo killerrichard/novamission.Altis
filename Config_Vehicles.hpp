@@ -44,7 +44,7 @@ class CarShops {
             { "C_Hatchback_01_sport_F", 25000, { "" }, { "life_medlevel", "SCALAR", 4 } },
             { "O_Truck_03_medical_F", 45000, { "" }, { "life_medlevel", "SCALAR", 5 } },
             { "C_Van_01_box_F", 30000, { "" }, { "life_medlevel", "SCALAR", 2 } },
-            { "C_SUV_01_F", 20000, { "" }, { "life_medlevel", "SCALAR", 3 } },
+            { "C_SUV_01_F", 20000, { "" }, { "life_medlevel", "SCALAR", 3 } }
         };
     };
 
@@ -216,8 +216,8 @@ class LifeCfgVehicles {
         chopShop = 100000;
         textures[] = {
             { "Black", "cop", {
-                "textures\cop\Hunter_case.paa"
-                "textures\cop\Hunter_plane.paa"
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
