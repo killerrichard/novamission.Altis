@@ -233,18 +233,20 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Keine Kopfbedeckung", 0, { "", "", -1 } },
-            { "H_Cap_blu", "", 10, { "", "", -1 } }
+            { "H_MilCap_gry", 150, { "", "", -1 } },
+	    { "H_Hat_brown", 150, { "life_medlevel", "SCALAR", 4 }}
         };
         goggles[] = {
             { "NONE", "Keine Brille", 0, { "", "", -1 } },
-            { "G_Shades_Blue", "", 10, { "", "", -1 } }
+            { "G_Aviator", "", 100, { "", "", -1 } },
+            { "G_Lowprofile", "", 30, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Keine Weste", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Kein Rucksack", 0, { "", "", -1 } },
-            { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } }
+            { "B_FieldPack_oli", "", 3000, { "", "", -1 } }
         };
     };
 
@@ -420,5 +422,5 @@ class Clothing {
             { "B_Kitbag_rgr", "Einsatzpack", 2500, { "", "", -1 } },
             { "B_TacticalPack_oli", "", 3500, { "", "", -1 } }
         };
-    };
+       };
 };

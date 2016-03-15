@@ -135,6 +135,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit" };
     };
+	
+	    class medic {
+        name = "STR_Shops_Med";
+        side = "med";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "waterBottle", "coffee", "redgull", "tbacon", "rabbit", "lockpick", "fuelFull",};
+    };
 };
 
 /*
@@ -841,4 +849,5 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_cookedMeat.paa";
     };
+	
 };

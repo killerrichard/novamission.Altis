@@ -232,7 +232,10 @@ class WeaponShops {
             { "ToolKit", "", 2000, 200 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 10, 1 },
-            { "NVGoggles", "", 1200, 980 }
+            { "NVGoggles", "", 1200, 980 },
+            { "SmokeShellRed", "", 250, 50},
+            { "SmokeShellOrange", "", 250, 50},
+            { "SmokeShellBlue", "", 250, 50}
         };
         mags[] = {};
     };
