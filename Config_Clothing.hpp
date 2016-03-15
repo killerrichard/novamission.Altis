@@ -422,5 +422,5 @@ class Clothing {
             { "B_Kitbag_rgr", "Einsatzpack", 2500, { "", "", -1 } },
             { "B_TacticalPack_oli", "", 3500, { "", "", -1 } }
         };
-    };
+       };
 };
