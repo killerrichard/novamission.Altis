@@ -188,7 +188,7 @@ class Licenses {
         side = "med";
     };
     //Gang Licenses
-        class rebel {
+        class uaa {
         variable = "UAA";
         displayName = "STR_License_uaa";
         price = 1000000;
