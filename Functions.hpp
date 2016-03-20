@@ -205,6 +205,7 @@ class Life_Client_Core
 		class playerSkins {};
 		class nearestObjects {};
 		class fadeSound {};
+		class loggedOut {};
 	};
 
 	class Network
