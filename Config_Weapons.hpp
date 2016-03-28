@@ -161,10 +161,9 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-            { "hgun_P07_F", "", 7500, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "HandGrenade_Stone", "Blendgranate", 1700, -1 },
+            { "SmokeShell", "Smoke Grenade (White)", 1700, -1 },
+            { "SmokeShellRed", "Smoke Grenade (Red)", 1700, -1 },
             { "Binocular", "", 5000, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 2000, 200 },
@@ -173,52 +172,497 @@ class WeaponShops {
             { "Medikit", "", 2000, 200 },
             { "NVGoggles", "", 10000, 1000 }
         };
-        mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
+    };
+
+    class cop_PA {
+        name = "Ordnungsamt";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 1, "Du bist kein Angehöriger des Ordnungsamt." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "SMG_02_F", "", 2500, -1 },
+			{ "30Rnd_9x21_Mag", "", 50, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 }
         };
     };
 
-    class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+    class cop_PM {
+        name = "Polizei Meister";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Du bist kein Polizei Meister." };
         items[] = {
-            { "arifle_MX_F", "", 35000, 7500 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "MineDetector", "", 1000, 500 },
-            { "acc_flashlight", "", 750, 100 },
-            { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
-        };
-        mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 }
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "arifle_Mk20_F", "", 1000, -1 },
+			{ "arifle_TRG21_F", "", 1000, -1 },
+			{ "30Rnd_556x45_Stanag", "", 125, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "optic_Hamr", "", 2500, -1 },
+			{ "optic_MRCO", "", 3000, -1 }
         };
     };
 
-    class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+    class cop_POM {
+        name = "Polizei Ober Meister";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Du bist kein Polizei Ober Meister." };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_02_ACO_F", "", 15000, -1 },
-            { "arifle_MXC_F", "", 30000, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
-        };
-        mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag", "", 60 },
-            { "30Rnd_65x39_caseless_mag", "", 100, -1 }
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "arifle_MX_Black_F", "", 30000, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "optic_Hamr", "", 2500, -1 },
+			{ "muzzle_snds_H", "", -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
         };
     };
+	
+    class cop_PHM {
+        name = "Polizei Haupt Meister";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 4, "Du bist kein Polizei Haupt Meister." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "arifle_MXM_Black_F", "", 15000, -1 },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "optic_Hamr", "", 2500, -1 },
+			{ "optic_MRCO", "", 1000, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_AMS", "", 9000, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+        };
+    };
+
+	class cop_PK {
+        name = "Polizei Kommissar";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 5, "Du bist kein Polizei Kommissar." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "arifle_MXM_Black_F", "", 10000, -1 },
+			{ "srifle_EBR_F", "",20000, 1- },
+			{ "20Rnd_762x51_Mag", "",950, 1- },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },	
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "muzzle_snds_B", "", 7500, -1 },
+			{ "optic_Hamr", "", 2500, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+        };
+    };
+	
+	class cop_POK {
+        name = "Polizei Ober Kommissar";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 6, "Du bist kein Polizei Ober Kommissar." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "srifle_EBR_F", "",20000, 1- },
+			{ "20Rnd_762x51_Mag", "",950, 1- },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+			
+        };
+    };
+	
+	class cop_PHK {
+        name = "Polizei Haupt Kommissar";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 7, "Du bist kein Polizei Haupt Kommissar." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 30000, -1 },
+			{ "srifle_EBR_F", "",20000, 1- },
+			{ "srifle_DMR_03_F", "",40000, 1- },
+			{ "20Rnd_762x51_Mag", "",950, 1- },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },			
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+			
+			
+        };
+    };
+	
+	class cop_PR {
+        name = "Polizei Rat";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 8, "Du bist kein Polizei Rat." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 30000, -1 },
+			{ "LMG_Mk200_F", "", 100000},
+			{ "srifle_EBR_F", "",20000, 1- },
+			{ "srifle_DMR_03_F", "",40000, 1- },
+			{ "200Rnd_65x39_cased_Box", "", 1500, -1 },
+			{ "20Rnd_762x51_Mag", "",950, 1- },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },			
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+			
+        };
+    };
+	
+	class cop_POR {
+        name = "Polizei Ober Rat";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 9, "Du bist kein Polizei Ober Rat." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 30000, -1 },
+			{ "LMG_Zafir_F", "", 105000},
+			{ "srifle_EBR_F", "", 20000, 1- },
+			{ "srifle_DMR_03_F", "", 40000, 1- },
+			{ "150Rnd_762x54_Box", 2000, -1 },
+			{ "20Rnd_762x51_Mag", "",950, 1- },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },			
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+			
+        };
+    };
+	
+	class cop_PD {
+        name = "Polizei Direktor";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 10, "Du bist kein Polizei Direktor." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 30000, -1 },
+			{ "LMG_Zafir_F", "", 105000},
+			{ "srifle_EBR_F", "", 20000, 1- },
+			{ "srifle_DMR_03_F", "", 40000, 1- },
+			{ "150Rnd_762x54_Box", 2000, -1 },
+			{ "20Rnd_762x51_Mag", "",950, 1- },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },			
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "muzzle_snds_H_MG", "", 4500, -1},			
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+			
+        };
+    };
+	
+	class cop_LPD {
+        name = "Leitender Polizei Direktor";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 11, "Du bist kein Leitender Polizei Direktor." };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 90000, -1 },
+			{ "arifle_MXC_Black_F", "",30000, -1 },
+			{ "LMG_Zafir_F", "", 105000},
+			{ "MMG_02_black_F", "", 700000},
+			{ "srifle_EBR_F", "", 20000, 1- },
+			{ "srifle_DMR_03_F", "", 400000, 1- },
+			{ "srifle_DMR_02_F", "", 500000, -1 },
+			{ "10Rnd_338_Mag","", 4000, -1 },
+			{ "130Rnd_338_Mag", "", 5000, -1 },
+			{ "150Rnd_762x54_Box", "", 2000, -1 },
+			{ "20Rnd_762x51_Mag", "", 950, 1- },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },			
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "muzzle_snds_H_MG", "", 4500, -1},			
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 10000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 }
+        };
+    };
+
+	class cop_SEK {
+        name = "Sonder Einsatz Komanndo";
+        side = "cop";
+        license = "sek";
+        level[] = { "", "", -1, "" };
+        items[] = {
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "srifle_DMR_06_olive_F", "Taser Rifle", 2500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "20Rnd_762x51_Mag", "Taser Rifle Magazin", 950, -1 },
+			{ "arifle_MXC_Black_F", "", 10000, -1 },
+		    { "MMG_02_black_F", "",100000, -1 },
+			{ "SMG_02_ACO_F", "", 30000, -1 },
+			{ "srifle_EBR_F", "",100000, -1 },
+			{ "LMG_Zafir_F", "", 10000, -1 },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+			{ "arifle_MX_Black_F", "", 15000, -1 },	
+			{ "arifle_MX_SW_Black_F", "", 30000, -1 },
+			{ "arifle_MXM_Black_F", "", 40000, -1 },
+			{ "30Rnd_9x21_Mag", "", 150, -1 },
+		    { "130Rnd_338_Mag", "", 500, -1 },
+			{ "150Rnd_762x54_Box", "", 250, -1 },
+			{ "30Rnd_65x39_caseless_mag", "", 125, -1 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 150, -1 },
+			{ "100Rnd_65x39_caseless_mag", "", 150, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "MineDetector", "", 1000, -1 },
+			{ "ItemWatch", "", 50, -1 },
+			{ "ItemCompass", "", 100, -1 },
+			{ "ItemGPS", "", 250, -1 },
+			{ "ItemMap", "", 100, -1 },
+			{ "B_UavTerminal", "", 10000, -1 },
+			{ "Binocular", "", 300, -1 },
+            { "Rangefinder", "", 300, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 },
+			{ "muzzle_snds_H", "", 4500, -1 },
+			{ "muzzle_snds_H_MG", "", 4500, -1},
+			{ "optic_Aco", "", 2500, -1 },
+			{ "optic_ACO_grn", "", 2500, -1 },
+			{ "optic_Arco", "", 5000, -1 },
+			{ "optic_MRCO", "", 10000, -1 },
+			{ "optic_Hamr", "", 15000, -1 },
+            { "optic_AMS", "", 10000, -1 },
+			{ "acc_flashlight", "", 800, -1 },
+			{ "acc_pointer_IR", "", 1500, -1 },
+			{ "bipod_01_F_blk", "", 5000, -1 },
+			{ "arifle_MX_GL_Black_F", "", 50000, -1 },
+			{ "1Rnd_Smoke_Grenade_shell", "", 500, -1 },
+			{ "1Rnd_SmokeRed_Grenade_shell", "", 500, -1 },
+			{ "1Rnd_SmokeBlue_Grenade_shell", "", 500, -1 }
+		};
+	};
+	
+	class cop_SEK_Sniper {
+        name = "SEK Sniper";
+        side = "cop";
+        license = "sek_sniper";
+        level[] = { "", "", -1, "" };
+        items[] = {
+			{ "srifle_GM6_F", "",100000, -1 },
+			{ "hgun_P07_snds_F", "Taser Pistol", 1500, -1 },
+			{ "16Rnd_9x21_Mag", "Taser Magazin", 50, -1 },
+			{ "5Rnd_127x108_APDS_Mag", "", 1850, -1 },
+			{ "5Rnd_127x108_Mag", "", 500, -1 },
+			{ "NVGoggles_OPFOR", "", 1500, -1 },
+            { "B_UavTerminal", "", 10000, -1 },
+			{ "optic_NVS", "", 10000, -1 },
+			{ "optic_LRPS", "", 10000, -1 },
+            { "optic_tws", "", 100000, -1 },
+			{ "Laserdesignator", "", 2000, -1 },
+			{ "Laserbatteries", "", 200, -1 },
+			{ "FirstAidKit", "", 250, -1 },
+			{ "Medikit", "", 2500, -1 },
+			{ "ToolKit", "", 500, -1 }
+		};
+	};
 
     //Medic Shops
     class med_basic {

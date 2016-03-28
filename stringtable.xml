@@ -17,6 +17,18 @@
       <Portuguese>Loja de Roupas Policiais</Portuguese>
       <Polish>Sklep Policyjny</Polish>
     </Key>
+    <Key ID="STR_Shops_C_SEK">
+      <Original>Spezialeinsatzkommando Shop</Original>
+	  <German>Spezialeinsatzkommando Shop</German>
+      <Portuguese>Spezialeinsatzkommando Shop</Portuguese>
+      <Polish>Spezialeinsatzkommando Shop</Polish>
+    </Key>
+    <Key ID="STR_License_SEK_Sniper">
+      <Original>Spezialeinsatzkommando Scharfschuetzenshop</Original>
+	  <German>Spezialeinsatzkommando Scharfschuetzenshop</German>
+      <Portuguese>Spezialeinsatzkommando Scharfschuetzenshop</Portuguese>
+      <Polish>Spezialeinsatzkommando Scharfschuetzenshop</Polish>
+    </Key>
     <Key ID="STR_Shops_C_Rebel">
       <Original>Mohammed's Jihadi Shop</Original>
       <Portuguese>Loja de Roupas Rebeldes</Portuguese>
@@ -4020,6 +4032,21 @@
       <Italian>Striscia Chiodata</Italian>
       <Portuguese>Tapete de Espinhos</Portuguese>
       <Polish>Kolczatka drogowa</Polish>
+    <Key ID="STR_Item_Mauer">
+      <Original>Barriere</Original>
+      <German>Barriere</German>
+      <French>Barriere</French>
+      <Italian>Barriere</Italian>
+      <Portuguese>Barriere</Portuguese>
+      <Polish>Barriere</Polish>
+    </Key>
+	<Key ID="STR_Item_Kegel">
+      <Original>Kegel</Original>
+      <German>Kegel</German>
+      <French>Kegel</French>
+      <Italian>Kegel</Italian>
+      <Portuguese>Kegel</Portuguese>
+      <Polish>Kegel</Polish>
     </Key>
   </Package>
   <Package name="Life_License">

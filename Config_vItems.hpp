@@ -13,7 +13,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
     class rebel {
@@ -53,7 +53,7 @@ class VirtualShops {
         side = "";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "coffee", "donuts", "redgull", "fuelFull"};
+        items[] = { "coffee", "donuts", "redgull", "fuelFull" };
     };
 
     class drugdealer {
@@ -133,7 +133,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit" };
+        items[] = { "donuts", "coffee", "spikeStrip", "mauer", "kegel", "lockpick", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit" };
     };
 	
 	    class medic {
@@ -205,6 +205,28 @@ class VirtualItems {
         icon = "icons\ico_spikestrip.paa";
     };
 
+	class mauer {
+        variable = "mauer";
+        displayName = "STR_Item_Mauer";
+        weight = 3;
+        buyPrice = 2500;
+        sellPrice = 1200;
+        illegal = true;
+        edible = -1;
+        icon = "";
+    };
+	
+	class kegel {
+        variable = "kegel";
+        displayName = "STR_Item_Kegel";
+        weight = 1;
+        buyPrice = 2500;
+        sellPrice = 1200;
+        illegal = true;
+        edible = -1;
+        icon = "";
+    };
+    
     class lockpick {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
